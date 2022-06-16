@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harmony", "src\Harmony\Harmony.csproj", "{94B8E458-5620-493C-A543-AC3DF4C0F0B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94B8E458-5620-493C-A543-AC3DF4C0F0B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94B8E458-5620-493C-A543-AC3DF4C0F0B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94B8E458-5620-493C-A543-AC3DF4C0F0B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94B8E458-5620-493C-A543-AC3DF4C0F0B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B896E754-FDC5-41B2-B515-84272AF97E4E}
+	EndGlobalSection
+EndGlobal
