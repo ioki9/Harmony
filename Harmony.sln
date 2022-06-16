@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harmony", "src\Harmony\Harmony.csproj", "{94B8E458-5620-493C-A543-AC3DF4C0F0B0}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioLib", "src\Harmony.audio\AudioLib\AudioLib.vcxproj", "{B08E022D-FDAD-40F2-9BE4-87A81B08FC12}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harmony.Audio", "src\Harmony.Audio\Harmony.Audio.vcxproj", "{B08E022D-FDAD-40F2-9BE4-87A81B08FC12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

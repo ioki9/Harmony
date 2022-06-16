@@ -23,7 +23,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{b08e022d-fdad-40f2-9be4-87a81b08fc12}</ProjectGuid>
-    <RootNamespace>AudioLib</RootNamespace>
+    <RootNamespace>Harmony.Audio</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
