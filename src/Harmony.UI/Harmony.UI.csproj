@@ -7,8 +7,10 @@
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Views\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Harmony.Common\Harmony.Common.csproj" />
+    <ProjectReference Include="..\Harmony.Services\Harmony.Services.csproj" />
   </ItemGroup>
 </Project>
