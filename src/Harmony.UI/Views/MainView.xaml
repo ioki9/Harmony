@@ -16,6 +16,28 @@
              TextElement.FontSize="14"
              FontFamily="{ext:PoppinsFont}">
     <Grid>
-        <TextBlock Text="{Binding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Margin="0 0 10 0">
+                <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="0 0 0 0"
+                        WindowChrome.IsHitTestVisibleInChrome="True"
+                        Command="{Binding MinimizeCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                    <materialDesign:PackIcon Kind="WindowMinimize" />
+                </Button>
+                <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="5 0 0 0"
+                        WindowChrome.IsHitTestVisibleInChrome="True"
+                         Command="{Binding MaximizeOrRestoreCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                    <materialDesign:PackIcon Kind="WindowMaximize" />
+                </Button>
+                <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="5 0 0 0"
+                        WindowChrome.IsHitTestVisibleInChrome="True"
+                        Command="{Binding CloseCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand">
+                    <materialDesign:PackIcon Kind="Close" />
+                </Button>
+            </StackPanel>
+        </DockPanel>
     </Grid>
 </UserControl>

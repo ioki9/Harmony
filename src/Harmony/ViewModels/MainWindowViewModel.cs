@@ -13,7 +13,6 @@ namespace Harmony.ViewModels
 
         public MainWindowViewModel()
         {
-
         }
     }
 }
