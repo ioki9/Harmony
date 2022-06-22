@@ -10,6 +10,25 @@
     <Page Remove="Resources\Images\**" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Resources\Montserrat\Montserrat-Black.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-BlackItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-Bold.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-BoldItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-ExtraBold.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-ExtraLight.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-Italic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-Light.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-LightItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-Medium.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-MediumItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-Regular.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-SemiBold.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-Thin.ttf" />
+    <None Remove="Resources\Montserrat\Montserrat-ThinItalic.ttf" />
+    <None Remove="Resources\Montserrat\OFL.txt" />
     <None Remove="Resources\Poppins\OFL.txt" />
     <None Remove="Resources\Poppins\Poppins-Black.ttf" />
     <None Remove="Resources\Poppins\Poppins-BlackItalic.ttf" />
@@ -48,6 +67,25 @@
     <Resource Include="Dictionaries\Vectors.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Resource>
+    <Resource Include="Resources\Montserrat\Montserrat-Black.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-BlackItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-Bold.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-BoldItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-ExtraBold.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-ExtraBoldItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-ExtraLight.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-ExtraLightItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-Italic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-Light.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-LightItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-Medium.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-MediumItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-Regular.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-SemiBold.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-SemiBoldItalic.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-Thin.ttf" />
+    <Resource Include="Resources\Montserrat\Montserrat-ThinItalic.ttf" />
+    <Resource Include="Resources\Montserrat\OFL.txt" />
     <Resource Include="Resources\Poppins\OFL.txt" />
     <Resource Include="Resources\Poppins\Poppins-Black.ttf" />
     <Resource Include="Resources\Poppins\Poppins-BlackItalic.ttf" />
