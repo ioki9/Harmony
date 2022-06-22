@@ -4,6 +4,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Remove="Resources\Images\**" />
+    <EmbeddedResource Remove="Resources\Images\**" />
+    <None Remove="Resources\Images\**" />
+    <Page Remove="Resources\Images\**" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="Resources\Poppins\OFL.txt" />
     <None Remove="Resources\Poppins\Poppins-Black.ttf" />
     <None Remove="Resources\Poppins\Poppins-BlackItalic.ttf" />
@@ -25,6 +31,9 @@
     <None Remove="Resources\Poppins\Poppins-ThinItalic.ttf" />
   </ItemGroup>
   <ItemGroup>
+    <Page Remove="Dictionaries\Vectors.xaml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
     <PackageReference Include="Prism.Wpf" Version="8.1.97" />
   </ItemGroup>
@@ -36,6 +45,9 @@
     <ProjectReference Include="..\Harmony.Services\Harmony.Services.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Dictionaries\Vectors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Resource>
     <Resource Include="Resources\Poppins\OFL.txt" />
     <Resource Include="Resources\Poppins\Poppins-Black.ttf" />
     <Resource Include="Resources\Poppins\Poppins-BlackItalic.ttf" />

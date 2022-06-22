@@ -21,10 +21,14 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <DockPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" DockPanel.Dock="Left" Margin="5 0 0 0">
+                <Button ContentTemplate="{DynamicResource Icon}" Style="{DynamicResource MaterialDesignFlatButton}" Padding="0"
+                        Height="40" Width="40" WindowChrome.IsHitTestVisibleInChrome="True"/>
+            </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Margin="0 0 10 0">
                 <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="0 0 0 0"
                         WindowChrome.IsHitTestVisibleInChrome="True"
-                        Command="{Binding MinimizeCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                        Command="{Binding MinimizeCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand">
                     <materialDesign:PackIcon Kind="WindowMinimize" />
                 </Button>
                 <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="5 0 0 0"

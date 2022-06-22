@@ -1,0 +1,70 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <DataTemplate x:Key="Icon">
+        <Viewbox Stretch="Uniform">
+            <Canvas Width="200" Height="200">
+                <Canvas.RenderTransform>
+                    <TranslateTransform X="0" Y="0"/>
+                </Canvas.RenderTransform>
+                <Canvas.Resources/>
+                <Canvas>
+                    <Canvas>
+                        <Canvas.RenderTransform>
+                            <TranslateTransform X="0" Y="-13.12801"/>
+                        </Canvas.RenderTransform>
+                        <Canvas>
+                            <Canvas.RenderTransform>
+                                <TranslateTransform X="0" Y="13.12801"/>
+                            </Canvas.RenderTransform>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.0449745" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" Opacity="1">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 35 98 h 10 v 4 H 35 Z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.100566" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="M 50 110 H 60 V 90 H 50 Z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.224873" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="M 65 50 H 75 V 150 H 65 Z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.142222" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 80 80 h 10 v 40 H 80 Z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.0449745" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 95 98 h 10 v 4 H 95 Z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.142222" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 110 80 h 10 v 40 h -10 z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.224873" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 125 50 h 10 v 100 h -10 z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.100566" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 140 90 h 10 v 20 h -10 z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                            <Path Fill="#FF8BC34A" StrokeThickness="0.0449745" StrokeMiterLimit="4" StrokeLineJoin="Miter" StrokeStartLineCap="Flat" StrokeEndLineCap="Flat">
+                                <Path.Data>
+                                    <PathGeometry Figures="m 155 98 h 10 v 4 h -10 z" FillRule="NonZero"/>
+                                </Path.Data>
+                            </Path>
+                        </Canvas>
+                    </Canvas>
+                </Canvas>
+            </Canvas>
+        </Viewbox>
+    </DataTemplate>
+</ResourceDictionary>
