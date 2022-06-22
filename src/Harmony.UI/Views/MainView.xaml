@@ -6,6 +6,7 @@
              xmlns:local="clr-namespace:Harmony.UI.Views"
              xmlns:prism="http://prismlibrary.com/"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:ext="clr-namespace:Harmony.UI.Extensions"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
@@ -13,7 +14,7 @@
              Background="{DynamicResource MaterialDesignPaper}"
              TextElement.FontWeight="Medium"
              TextElement.FontSize="14"
-             FontFamily="{materialDesign:MaterialDesignFont}">
+             FontFamily="{ext:PoppinsFont}">
     <Grid>
         <TextBlock Text="{Binding Content}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
