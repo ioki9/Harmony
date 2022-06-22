@@ -1,5 +1,8 @@
-﻿using Harmony.Views;
+﻿using Harmony.Services;
+using Harmony.UI;
+using Harmony.Views;
 using Prism.Ioc;
+using Prism.Modularity;
 using System.Windows;
 
 namespace Harmony
@@ -17,6 +20,12 @@ namespace Harmony
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
 
+        }
+
+        protected override void ConfigureModuleCatalog(IModuleCatalog moduleCatalog)
+        {
+            moduleCatalog.AddModule<ServicesModule>();
+            moduleCatalog.AddModule<UIModule>();
         }
     }
 }
