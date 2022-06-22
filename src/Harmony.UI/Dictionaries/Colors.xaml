@@ -1,0 +1,8 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="MaterialDesignPrimaryColor">#FF8BC34A</Color>
+    <Color x:Key="MaterialDesignAccentColor">#FFFF8A65</Color>
+
+    <SolidColorBrush x:Key="MaterialDesignPrimary" Color="{DynamicResource MaterialDesignPrimaryColor}"/>
+    <SolidColorBrush x:Key="MaterialDesignAccent" Color="{DynamicResource MaterialDesignAccentColor}"/>
+</ResourceDictionary>

@@ -24,26 +24,62 @@
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" DockPanel.Dock="Left" Margin="5 0 0 0">
                 <Button ContentTemplate="{DynamicResource Icon}" Style="{DynamicResource MaterialDesignFlatButton}" Padding="0"
                         Height="40" Width="40" WindowChrome.IsHitTestVisibleInChrome="True"/>
-                <TextBlock Text="HARMONY" FontFamily="{ext:MontserratFont}" FontSize="22" Foreground="#FF8BC34A" VerticalAlignment="Center" 
+                <TextBlock Text="HARMONY" FontFamily="{ext:MontserratFont}" FontSize="22" Foreground="{DynamicResource MaterialDesignPrimary}" VerticalAlignment="Center" 
                            Padding="0" Margin="5 0 0 0"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center" DockPanel.Dock="Right" Margin="0 0 10 0">
                 <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="0 0 0 0"
                         WindowChrome.IsHitTestVisibleInChrome="True"
                         Command="{Binding MinimizeCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand">
-                    <materialDesign:PackIcon Kind="WindowMinimize" />
+                    <materialDesign:PackIcon Kind="WindowMinimize" Height="20" Width="20"/>
                 </Button>
                 <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="5 0 0 0"
                         WindowChrome.IsHitTestVisibleInChrome="True"
                          Command="{Binding MaximizeOrRestoreCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
-                    <materialDesign:PackIcon Kind="WindowMaximize" />
+                    <materialDesign:PackIcon Kind="WindowMaximize" Height="20" Width="20"/>
                 </Button>
                 <Button Style="{DynamicResource MaterialDesignFlatButton}" Height="30" Width="30" Padding="0" Margin="5 0 0 0"
                         WindowChrome.IsHitTestVisibleInChrome="True"
                         Command="{Binding CloseCommand, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" Cursor="Hand">
-                    <materialDesign:PackIcon Kind="Close" />
+                    <materialDesign:PackIcon Kind="Close" Height="20" Width="20"/>
                 </Button>
             </StackPanel>
         </DockPanel>
+
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.7*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border BorderThickness="1 0 0 0" BorderBrush="{DynamicResource MaterialDesignPrimary}" Grid.Column="1">
+                <DockPanel Margin="10 0 10 0">
+                    <Grid DockPanel.Dock="Top" Height="30">
+                        <TextBlock Text="CONVERSATION" Foreground="{DynamicResource MaterialDesignPrimary}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        <Button Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Right" Width="30" Padding="0">
+                            <materialDesign:PackIcon Kind="People" Height="25" Width="25"/>
+                        </Button>
+                    </Grid>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="auto" MaxHeight="150"/>
+                        </Grid.RowDefinitions>
+                        <Border BorderThickness="0 1 0 0" BorderBrush="{DynamicResource MaterialDesignPrimary}" Grid.Row="1">
+                            <DockPanel MinHeight="40">
+                                <TextBox Style="{DynamicResource MaterialDesignTextBox}" DockPanel.Dock="Left"/>
+                                <Button Style="{DynamicResource MaterialDesignFlatButton}" HorizontalAlignment="Right" DockPanel.Dock="Right" Width="30" Padding="0">
+                                    <materialDesign:PackIcon Kind="Send" Height="25" Width="25"/>
+                                </Button>
+                            </DockPanel>
+                        </Border>
+                    </Grid>
+
+                </DockPanel>
+            </Border>
+        </Grid>
     </Grid>
 </UserControl>
